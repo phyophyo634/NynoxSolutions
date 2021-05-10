@@ -811,7 +811,7 @@
   <h2>Fill-Up Your Details Here</h2>   
   
   
-  <form class="form-horizontal"  role="form" method="post" enctype="multipart/form-data">
+  <form action="https://formspree.io/f/myylegwz" class="form-horizontal"  role="form" method="POST" enctype="multipart/form-data">
   <div class="row" style="margin: 0px;">
   
       <div class="col-sm-6">
@@ -854,8 +854,7 @@
         <button type="submit" name="submit" >Submit</button>
       </div>
     </div>
-  
-  </div>
+   </div>
   </form>
 </div>
   </div>
@@ -876,13 +875,48 @@
     <div class="copyright">
       &copy; Copyright <strong>Nynox</strong>. All Rights Reserved
     </div>
-    <div class="credits">
-            </div>
+    <div class="credits">  </div>
   </div>
 
+   <!-- \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Email Testing -->
+   <!-- <script>
+
+    if(isset($_POST["submit"])){
+    // Checking For Blank Fields..
+    if($_POST["YourName"]==""||$_POST["YourEmail"]==""||$_POST["contact_number"]==""||$_POST["Subject"]==""||$_POST["Message"]=="")
+    {
+    
+    }
+    else
+    {
+    // Check if the "Sender's Email" input field is filled out
+    $email=$_POST['YourEmail'];
+    // Sanitize E-mail Address
+    $email =filter_var($email, FILTER_SANITIZE_EMAIL);
+    // Validate E-mail Address
+    $email= filter_var($email, FILTER_VALIDATE_EMAIL);
+    if (!$email){
+   
+    }
+    else{
+    $contact = $_POST['contact_number'];
+    $subject = $_POST['Subject'];
+    $message = $_POST['Message'];
+    $headers = 'From:'.$email2. "rn";
+    $headers = 'Cc:'. $email2 . "rn"; // Carbon copy to Sender
+    // Message lines should not exceed 70 characters (PHP rule), so wrap it
+    $message = wordwrap($message, 70);
+    // Send Mail By PHP Mail Function
+    mail("phyo.phyo@nynox.solutions", $subject, $message, $headers);
+    
+    }
+    }
+    }
+    </script> -->
+
   <!-- -----------------------------Function
-  
-  <script>
+   -->
+  <!-- <script>
     $(window).scroll(function(){
     var sticky = $('.header'),
         scroll = $(window).scrollTop();
@@ -1011,6 +1045,11 @@
         }, 1000);
       });
   </script>  -->
+
+
+<!-- -------Email testing -->
+
+
        
       </div>
 
