@@ -286,7 +286,7 @@ h6 {
 .main-nav > ul > li {
   position: relative;
   white-space: nowrap;
-  float: left;
+  float: left;font-family: "Montserrat", sans-serif;
  }
 
 .main-nav a {
