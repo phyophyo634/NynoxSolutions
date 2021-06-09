@@ -200,8 +200,8 @@ h6 {
 
 #header .logo img {
   padding: 0;
-  margin: 7px 0;
-  max-height: 50px;
+  margin: 15px 0;
+  max-height: 45px;
   max-width: 70px;
   margin:0px 9px 0px 5px;
 }
@@ -225,7 +225,6 @@ h6 {
 #intro .intro-info h2,h3 {
   color: #19A0EE;
   /* margin-bottom: 10px; */
-  font-family: "Montserrat", sans-serif;
   font-size: 30px;
   font-weight: 500;
   margin-top: 50px;
@@ -241,7 +240,6 @@ h6 {
 
 #intro .intro-info h2 span {
   color: #19A0EE;
-  font-family: "Montserrat", sans-serif;
 
  }
 
@@ -299,7 +297,7 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
   font-weight: 600;
  
@@ -353,7 +351,7 @@ h6 {
 
 .main-nav .drop-down > a:after {
   content: "\f107";
-  font-family: "Montserrat", sans-serif;
+  font-family: FontAwesome;
   padding-left: 10px;
 }
 
@@ -416,7 +414,7 @@ h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\f078";
-  font-family: "Montserrat", sans-serif;
+  font-family: FontAwesome;
   padding-left: 10px;
   position: absolute;
   right: 15px;
