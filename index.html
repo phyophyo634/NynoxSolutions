@@ -6,60 +6,16 @@
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <meta content="" name="keywords">
   <meta content="" name="description">
-  <link rel="alternate" href="https://polestarllp.com/" hreflang="en-us" />
-  <link rel="alternate" href="https://polestarllp.com/" hreflang="en-ca" />
-  <link rel="alternate" href="https://polestarllp.com/" hreflang="en-au" />
-  <link rel="alternate" href="https://polestarllp.com/" hreflang="x-default" />
-  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-  <script src="https://cdn.onesignal.com/sdks/OneSignalSDK.js" async=""></script>
-  <script>
-    var OneSignal = window.OneSignal || [];
-    OneSignal.push(function() {
-      OneSignal.init({
-        appId: "7b66237b-aa0f-47a9-8674-8741d7e51e2e",
-      });
-    });
-  </script>
 
   <!-- Favicons -->
-  <link href="img/Nobg_Logo.png" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+  <link href="img\Nobg_Logo.png" rel="icon">
+  <!-- <link href="img/apple-touch-icon.png" rel="apple-touch-icon"> -->
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,600,700,700i|Montserrat:300,400,500,600,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/bootstrap.min.css">
-  <!-- ---added from box -->
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/fontawesome-all.min.css">
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/adoption.css">
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/animate.css">
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/responsive.css">
-  <link rel="stylesheet" href="https://www.polestarllp.com/css/lightbox.css">
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/owl.carousel.css">
-  <link rel="stylesheet" type="text/css" href="https://www.polestarllp.com/css/carousel.css">
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap" rel="stylesheet">
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-92037303-3"></script>
-  <!-- <link rel="stylesheet" type="text/css" href="https://polestarllp.com/css/style.css"> -->
- 
-
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-92037303-3');
-  </script>
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-595262511"></script>
-  <script>
-   window.dataLayer = window.dataLayer || [];
-   function gtag(){dataLayer.push(arguments);}
-   gtag('js', new Date());
-
-   gtag('config', 'AW-595262511');
-  </script>
-  <script src="https://t.mentioned.app/track/track.js" id="mentioned-by-script"></script>
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -73,8 +29,14 @@
   <link href="css/style1.css" rel="stylesheet" >
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  
 
+
+  <!-- =======================================================
+    Theme Name: Rapid
+    Theme URL: https://bootstrapmade.com/rapid-multipurpose-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
 </head>
 <body>
    <!--==========================
@@ -91,11 +53,14 @@
       <nav class="main-nav float-right d-none d-lg-block" style="color:#19a0ee">
         <ul>
           <li class="active"><a href="#intro"><strong>Home</strong></a></li>
-          <li><a href="nynox.html"><strong>Nynox</strong></a></li>
-          <!-- <li><a href="#services">Services</a></li> -->
-          <li><a href="team.html"><strong>Team</strong>  </a></li>
-          <li><a href="activities.html"><strong>Activities</strong>  </a></li>
-          <li><a href="contact.html"><strong>Contact Us</strong>  </a></li>
+          <li class="drop-down"><a href="#about"><strong>Nynox</strong></a>
+            <ul>
+            <li><a href="#why-us">Services</a></li>
+            </ul>
+          </li>
+          <li><a href="#team"><strong>Team</strong>  </a></li>
+          <li><a href="#portfolio"><strong>Activities</strong>  </a></li>
+          <li><a href="#footer"><strong>Contact Us</strong>  </a></li>
         </ul>
       </nav><!-- .main-nav -->
     </div>
@@ -120,19 +85,18 @@
   <!--==========================
       Nynox
     ============================-->
-      <!-- <section id="why-us" class="consumer-durables-industry">
-        <div class="container">      
+      <section id="about" class="consumer-durables-industry">
+        <div class="container">
           <header class="section-header">
-            <h3>Nynox</h3></header>      
+            <h3>Nynox</h3></header>
          <div class="row">
-              <div class='col-md-4'>      
-                <div class='custom-consumer-igh'>      
-                  <img class='example-image img-fluid' src="img/p1.jpg" alt='Seat Utilization Analysis'></a>      
+              <div class='col-md-4'>
+                <div class='custom-consumer-igh'>
+                  <img class='example-image img-fluid' src="img/p1.jpg" alt='Seat Utilization Analysis'></a>
                 </div>
-      
+
                 <h4><strong>Nynox</strong></h4>
-                <p>Nynox Solutions is a boutique organisation where our strength is working closely with a small set of key Customers. Nynox has extensive experience working in FMCG sector and have in-depth knowledge of the industry and its BI & Data requirements
-                    <ul>
+                <p>Nynox Solutions is a boutique organisation where our strength is working closely with a small set of key Customers. Nynox has extensive experience working in FMCG sector and have in-depth knowledge of the industry and its BI & Data requirements<ul>
                       <li> Sales, <br></li>
                       <li> Finance, <br></li>
                       <li> Supply Chain,<br></li>
@@ -141,136 +105,135 @@
                     </ul>
                  Nynox team could bring that experience, passion and energy to the engagement with your organisation.
                 </p>
-            </div> 
+            </div>
               <div class='col-md-4'>
                 <div class='custom-consumer-igh'>
                 <a class='example-image-link' href=polestar-website-admin/uploads/Attrition-Analysis.jpg data-lightbox='example-1'>
-                <img class='example-image img-fluid' src="img/p2.jpg"></a>
+                <img class='example-image img-fluid' src="img/p9.png"></a>
                 </div>
                 <h4><strong>We're here to help!</strong></h4>
                 <p>Power by Microsoft Azure Cloud, we help our customers to</p>
                 <ul>
-                  <li>Maximise Cost efficiencies using best fit IT capabilities</li> 
-                  <li>Minimise BAU costs including licensing, storage and upgrade costs </li> 
-                  <li>Replace repeated manual effort with Automation and reusable KPI measures </li> 
-                  <li>Control and Standardise data enabling proper measure of organisation performance  </li> 
-                  <li>Control and Standardise data enabling proper measure of organisation performance </li> 
-                  <li>Deliver intuitive Dashboard analytics to support teams making timely and informed decisions</li> 
-              </ul>      
-            </div> 
-      
+                  <li>Maximise Cost efficiencies using best fit IT capabilities</li>
+                  <li>Minimise BAU costs including licensing, storage and upgrade costs </li>
+                  <li>Replace repeated manual effort with Automation and reusable KPI measures </li>
+                  <li>Control and Standardise data enabling proper measure of organisation performance  </li>
+                  <li>Control and Standardise data enabling proper measure of organisation performance </li>
+                  <li>Deliver intuitive Dashboard analytics to support teams making timely and informed decisions</li>
+              </ul>
+            </div>
+
               <div class='col-md-4'>
-      
+
                 <div class='custom-consumer-igh'>
-      
+
                 <a class='example-image-link' href=polestar-website-admin/uploads/Revenue-VS-Gross-Margin.jpg data-lightbox='example-1'>
                 <img class='example-image img-fluid' src="img/laptop with GTR .png" alt='Revenue v/s Gross Margin'></a>
                 </div>
                 <h4><strong>Solutions</strong></h4>
-      
+
                 <p>We can assist you with move to Azure Cloud, Data Warehouse capabilities, Power BI reporting and Dashboards utilising Microsoft Azure cloud.
                 </p>
                   <ul>
-                    <li> Analysis built by a team of BI specialists</li> 
-                    <li> BI best practice project delivery framework</li> 
+                    <li> Analysis built by a team of BI specialists</li>
+                    <li> BI best practice project delivery framework</li>
                     <li> Business stakeholder buy-in, requirements and sign-offs</li>
                     <li> IT solution/ tool options.</li>
                     <li> Report improvement and standardization design</li>
                     <li> hange management</li>
                   </ul>
-            </div> 
-         </div> 
-      
+            </div>
+         </div>
         </div>
-      
-      </section> -->
-      
+ </section>
+
           <!-- </section> -->
 
-          <!-- <section class="Industries-services-section">
-          
-               <div class="container" >         
+ <section id="why-us" class="consumer-durables-industry">
 
-                             <ul class="nav nav-pills">
-                                 <li class='nav-item nav-item1'>
-                                 <a class='nav-link customuu active' data-toggle='pill' href='#Specialising'>
-                                 <h4>Nynox Specialising Services</h4></a>
-                                 </li>
+          <div class="container" >          <!-- Nav pills -->
 
-                                 <li class='nav-item nav-item2'>
-                                 <a class='nav-link customuu  ' data-toggle='pill' href='#BI'>
-                                 <h4>BI Solutions</h4></a>
-                                 </li>
+            <ul class="nav nav-pills">
+                <li class='nav-item nav-item1'>
+                <a class='nav-link customuu active' data-toggle='pill' href='#Specialising'>
+                <h4>Nynox Specialising Services</h4></a>
+                </li>
 
-                                 <li class='nav-item nav-item3'>
-                                 <a class='nav-link customuu ' data-toggle='pill' href='#Customers'>
-                                 <h4>Values to Customers</h4></a>
-                                 </li>
-                             </ul>
-                          <br>
-                       <div class="tab-content">
-                             <div class='tab-pane container  active' id='Specialising'>
-                           <div class='row'>
-                             <div class='col-md-6'>
-                               <div class='custom-text-middle'>
-                                 <p>Specialising in BI solution delivery, Nynox delivers fast-to market solutions that meet your business needs and save your ongoing IT costs.
-                                   Our team of skilled professionals are ready to help support your business today.</p>
-                                     <ul style="list-style-type: disc">
-                                       <li>Reporting & Dashboards Design</li>
-                                       <li>Architecture</li>
-                                       <li>Business Analysis</li>
-                                       <li>Change Management</li>
-                                       <li>Data Analytics</li>
-                                       <li>Training & Mentoring</li>
-                                       <li>Project Delivery</li>
-                                       <li>Support & Operation</li>
-                                       <li>End to End Information Flow</li>
-                                       <li>Information Governance</li>
-                                     </ul>
-                               </div>
-                             </div>
+                <li class='nav-item nav-item2'>
+                <a class='nav-link customuu  ' data-toggle='pill' href='#BI'>
+                <h4>BI Solutions</h4></a>
+                </li>
 
-                           <div class='col-md-6'>
-                             <img src="img/Service Design.png" class='img-fluid' >
-                           </div>
+                <li class='nav-item nav-item3'>
+                <a class='nav-link customuu ' data-toggle='pill' href='#Customers'>
+                <h4>Values to Customers</h4></a>
+                </li>
+            </ul>
+         <br>
+      <!-- Tab panes -->
+      <div class="tab-content">
+            <div class='tab-pane container  active' id='Specialising'>
+          <div class='row'>
+            <div class='col-md-6'>
+              <div class='custom-text-middle'>
+                <p>Specialising in BI solution delivery, Nynox delivers fast-to market solutions that meet your business needs and save your ongoing IT costs.
+                  Our team of skilled professionals are ready to help support your business today.</p>
+                    <ul style="list-style-type: disc">
+                      <li> Reporting & Dashboards Design</li>
+                      <li> Architecture</li>
+                      <li> Business Analysis</li>
+                      <li> Change Management</li>
+                      <li> Data Analytics</li>
+                      <li> Training & Mentoring</li>
+                      <li> Project Delivery</li>
+                      <li> Support & Operation</li>
+                      <li> End to End Information Flow</li>
+                      <li> Information Governance</li>
+                    </ul>
+              </div>
+            </div>
 
-                           </div>
-                         </div>
+          <div class='col-md-6'>
+            <img src="img/Service Design.png" class='img-fluid' >
+          </div>
 
-                             <div class='tab-pane container  fade' id='BI'>
-                             <div class='row'>
-                               <div class='col-md-6'>
-                                 <img src="img/p7.jpg" class='img-fluid' alt='Advanced Analytics'>
-                               </div>
-                                 <div class='col-md-6'>
-                                   <div class='custom-text-middle'>
-                                 <p>Nynox is specializing in BI solutions that meet specific business needs. Nynox team has strong experiences in Cloud Data Warehouse, Data Analytics, and best fit flexible dashboard designs. Nynox are implementing professional project delivery framework, business engagement, buy-in, sign-offs, requirements traceability.</p>
-                                 <p>Nynox provides Business intelligence (BI) services designed to leveraging business analytics to drive cost savings, improve performance, gain deep visibility into the business processes and advance decision making with consolidated analytics.
+          </div>
+        </div>
 
-                                   </div>
-                                 </div>
+            <div class='tab-pane container  fade' id='BI'>
+            <div class='row'>
+              <div class='col-md-6'>
+                <img src="img/p7.jpg" class='img-fluid' alt='Advanced Analytics'>
+              </div>
+                <div class='col-md-6'>
+                  <div class='custom-text-middle'>
+                <p>Nynox is specializing in BI solutions that meet specific business needs. Nynox team has strong experiences in Cloud Data Warehouse, Data Analytics, and best fit flexible dashboard designs. Nynox are implementing professional project delivery framework, business engagement, buy-in, sign-offs, requirements traceability.</p>
+                <p>Nynox provides Business intelligence (BI) services designed to leveraging business analytics to drive cost savings, improve performance, gain deep visibility into the business processes and advance decision making with consolidated analytics.
 
-                               </div>
-                         </div>
-                             <div class='tab-pane container  fade' id='Customers'>
-                           <div class='row'>
-                             <div class='col-md-6'>
-                               <div class='custom-text-middle'>
-                                 <p>Nynox provided cloud Data Warehouse and BI reports for Pernod Ricard Global Travel Retail such as Customer Profit and Loss Dashboards, Finance Dashboards,
-                                   Shipment and Depletion Dashboards, Master Data Dashboards, etc.</p>
-                                 <p>Currently, 25 BI reporting dashboards are used in Pernod Ricard for GTR. We integrated the different sources of
-                                   data from different affiliates region such as EMEA, Asia, Pacific, India, US.Nynox always supports data integration, issues solving and provides the enhancements of the reports
-                                   according to the change requests. New dashboards are still developing for GTR.</p>
-                               </div>
-                             </div>
-                                 <div class='col-md-6'>
-                                   <img src="img/p8.jpg" class='img-fluid' alt='Enterprise Performance Management'>
-                                 </div>
-                           </div>
-                         </div>
-                      </div>
-                     </div>
-</section> -->
+                  </div>
+                </div>
+
+              </div>
+        </div>
+            <div class='tab-pane container  fade' id='Customers'>
+          <div class='row'>
+            <div class='col-md-6'>
+              <div class='custom-text-middle'>
+                <p>Nynox provided cloud Data Warehouse and BI reports for Pernod Ricard Global Travel Retail such as Customer Profit and Loss Dashboards, Finance Dashboards,
+                  Shipment and Depletion Dashboards, Master Data Dashboards, etc.</p>
+                <p>Currently, 25 BI reporting dashboards are used in Pernod Ricard for GTR. We integrated the different sources of
+                  data from different affiliates region such as EMEA, Asia, Pacific, India, US.Nynox always supports data integration, issues solving and provides the enhancements of the reports
+                  according to the change requests. New dashboards are still developing for GTR.</p>
+              </div>
+            </div>
+                <div class='col-md-6'>
+                  <img src="img/p8.jpg" class='img-fluid' alt='Enterprise Performance Management'>
+                </div>
+          </div>
+        </div>
+     </div>
+    </div>
+</section>
 
 <!-- <Nynox Section> -->
 
@@ -278,68 +241,68 @@
       Team Section
     ============================-->
 
-<!-- <section id= "team"  style="background: #f5f8fa;">
+<section id= "team"  style="background: #f5f8fa;">
 
-  <div class="container">      
+  <div class="container">
     <header class="section-header">
-      <h3>Team</h3></header>   
+      <h3>Team</h3></header>
 
-      <h4><strong>We are BI Specialists</strong></h4>      
+      <h4><strong>We are BI Specialists</strong></h4>
       <div class="row">
-          <div class='col-md-6'>            
+          <div class='col-md-6'>
             <p>Nynox is an experienced team specializing in Business Intelligent and Data Analytics. We approach all the challenges with Passion and Hard Work. We focus on Microsoft BI stack; Power BI, Azure Analysis Services, Azure Data Factory (ADFV2) Azure Data Lake other Microsoft set of tools to solve Business Problems.
-             We have enabled our Customers to bring their On-Prem Enterprise data to Cloud based Azure BI environment providing saving and efficiencies.          
+             We have enabled our Customers to bring their On-Prem Enterprise data to Cloud based Azure BI environment providing saving and efficiencies.
             </p>
-          </div> 
-  
-        <div class='col-md-6'>  
+          </div>
+
+        <div class='col-md-6'>
           <p> Nynox values Teamwork and Collaboration. Inclusive work environment has provided safe space for individuals to contribute in their own ways and reach their own potentials.
 
-           With Can-Do attitude, we can achieve anything and can overcome any challenges. </p>                 
-          
+           With Can-Do attitude, we can achieve anything and can overcome any challenges. </p>
+
         </div>
       </div>
-      
+
    <div class="row">
-        <div class='col-md-3'>      
-          <div class='custom-consumer-igh'>      
-            <img class='example-image img-fluid' src="img/Financial.png" alt='Seat Utilization Analysis'></a>      
+        <div class='col-md-3'>
+          <div class='custom-consumer-igh'>
+            <img class='example-image img-fluid' src="img/p4.jpg" alt='Seat Utilization Analysis'></a>
           </div>
-        </div> 
+        </div>
 
         <div class='col-md-3'>
           <div class='custom-consumer-igh'>
-            <img class='example-image img-fluid' src="img/Scenario.png"></a>
+            <img class='example-image img-fluid' src="img/p2.jpg"></a>
           </div>
-        </div> 
+        </div>
 
         <div class='col-md-3'>
           <div class='custom-consumer-igh'>
-              <img class='example-image img-fluid' src="img/Market Analysis.png" alt='Revenue v/s Gross Margin'></a>
-          </div>       
-        </div> 
+              <img class='example-image img-fluid' src="img/p3.jpg" alt='Revenue v/s Gross Margin'></a>
+          </div>
+        </div>
 
       <div class='col-md-3'>
         <div class='custom-consumer-igh'>
-            <img class='example-image img-fluid' src="img/Growth.png" alt='Revenue v/s Gross Margin'></a>
-        </div>       
+            <img class='example-image img-fluid' src="img/p7.jpg" alt='Revenue v/s Gross Margin'></a>
+        </div>
       </div>
 
-      
 
-   </div> 
+
+   </div>
 
   </div>
 
 
-</section> -->
+</section>
 
 
 
   <!--==========================
      Activities Section
     ============================-->
-    <!-- <section id="portfolio" class="section-bg">
+    <section id="portfolio" class="section-bg">
       <div class="container">
 
         <header class="section-header">
@@ -351,12 +314,12 @@
           </div>
         </div>
 
-        <div class="row portfolio-container">    
+        <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-travel">
             <div class="portfolio-wrap">
               <img src="img/NynoxPhoto/Activities.jpg" class="img-fluid" alt="">
-              <div class="portfolio-info">               
+              <div class="portfolio-info">
                 <div>
                   <a href="img/NynoxPhoto/Activities.jpg" class="link-preview" data-lightbox="portfolio" data-title="Team Travel 1" title="Preview"><i class="ion ion-eye"></i></a>
                 </div>
@@ -381,7 +344,7 @@
               <div class="portfolio-info">
                 <div>
                   <a href="img/Group3.png" class="link-preview" data-lightbox="portfolio" data-title="Team Travel 3" title="Preview"><i class="ion ion-eye"></i></a>
-                
+
                 </div>
               </div>
             </div>
@@ -391,7 +354,7 @@
             <div class="portfolio-wrap">
               <img src="img/Group8.png" class="img-fluid" alt="">
               <div class="portfolio-info">
-                
+
                 <div>
                   <a href="img/Group8.png" class="link-preview" data-lightbox="portfolio" data-title="Team Travel 3" title="Preview"><i class="ion ion-eye"></i></a>
                 </div>
@@ -424,12 +387,14 @@
         </div>
 
       </div>
-    </section>#Activities -->
+    </section>
+
+    <!-- #Activities -->
 
 <!--==========================
         Contact Us
       ============================-->
-      <!-- <footer id="footer" class="section-bg">
+      <footer id="footer" class="section-bg">
         <div class="footer-top">
           <div class="container">
             <header class="section-header">
@@ -449,7 +414,7 @@
                         <a class="nav-link" data-toggle="tab" href="#yangon">Yangon Office</a>
                       </li>
                     </ul>
-                              
+
                       <div class="tab-content">
                           <div class="tab-pane active" id="sydney">
                                 <div class="custom-address-inner">
@@ -494,7 +459,7 @@
                                         </div>
                                 </div>
                               </div>
-                    </div>           
+                    </div>
           </div>
         </div>
 
@@ -547,23 +512,23 @@
   </div>
 
     </div>
-   </div> -->
+   </div>
 
 
-   <!-- <div class="container">
+   <div class="container">
     <div class="copyright">
       &copy; Copyright <strong>Nynox</strong>. All Rights Reserved
     </div>
     <div class="credits">  </div>
-  </div> -->
-      <!-- </div>
-     
+  </div>
+      </div>
+
       </div>
 
     </div>
 
-</footer> #footer -->
-  
+</footer> #footer
+
 
   <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
   <!-- Uncomment below i you want to use a preloader -->

@@ -228,10 +228,10 @@ h6 {
 #intro .intro-info h2,h3 {
   color: #19A0EE;
   /* margin-bottom: 10px; */
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 500;
   margin-top: 50px;
-  margin-left: 550px;
+  margin-left: 580px;
 
 }
 
@@ -274,31 +274,30 @@ h6 {
 }
 
 
-/*--------------------------------------------------------------
+/* *--------------------------------------------------------------
 # Navigation Menu
---------------------------------------------------------------*/
+--------------------------------------------------------------*/ */
 
 /* Desktop Navigation */
 
 /* .main-nav {
-  /* Drop Down */
-  /* Deep Drop Down */
-/* } */ */
+  Drop Down
+  /* Deep Drop Down
+} */
 
 .main-nav,
 .main-nav * {
   margin: 0;
   padding: 0;
-  list-style: disc;
-  list-style-type: style disc;
+  margin-top: 3px;
+  list-style: none;
 }
 
 .main-nav > ul > li {
   position: relative;
   white-space: nowrap;
   float: left;
-  font-family: "Montserrat", sans-serif;
-  list-style: disc;
+
  }
 
 .main-nav a {
@@ -308,16 +307,16 @@ h6 {
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Open Sans", sans-serif;
   text-transform: uppercase;
-  font-weight: 500;
+  font-weight: 600;
 
 }
 
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #1bb1dc;
+  color: #19a0ee;
   text-decoration: none;
 }
 
@@ -333,7 +332,6 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: ease all 0.3s;
-  list-style: disc;
 }
 
 .main-nav .drop-down:hover > ul {
@@ -352,18 +350,18 @@ h6 {
   font-size: 14px;
   font-weight: 500;
   text-transform: none;
-  color: #065e77;
+  color: #19a0ee;
 }
 
 .main-nav .drop-down ul a:hover,
 .main-nav .drop-down ul .active > a,
 .main-nav .drop-down ul li:hover > a {
-  color: #1bb1dc;
+  color: #19a0ee;
 }
 
 .main-nav .drop-down > a:after {
   content: "\f107";
-  font-family: "Montserrat", sans-serif;
+  font-family: FontAwesome;
   padding-left: 10px;
 }
 
@@ -406,8 +404,7 @@ h6 {
 .mobile-nav * {
   margin: 0;
   padding: 0;
-  list-style: disc;
-  list-style-type: style disc;
+  list-style: none;
 }
 
 .mobile-nav a {
@@ -427,7 +424,7 @@ h6 {
 
 .mobile-nav .drop-down > a:after {
   content: "\f078";
-  font-family: "Montserrat", sans-serif;
+  font-family: FontAwesome;
   padding-left: 10px;
   position: absolute;
   right: 15px;
@@ -551,8 +548,7 @@ h6 {
 }
 
 #about .about-content ul {
-  list-style: desc;
-  list-style-type: style disc;
+  list-style: none;
   padding: 0;
 }
 
@@ -789,8 +785,7 @@ h6 {
 #portfolio #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
-  list-style: disc;
-  list-style-type: style disc;
+  list-style: none;
   text-align: center;
 }
 
@@ -1213,8 +1208,8 @@ h6 {
 
 #faq #faq-list {
   padding: 0;
-  list-style: disc;
-  list-style-type: style disc;
+  list-style: none;
+ 
 }
 
 #faq #faq-list li {
@@ -1328,8 +1323,7 @@ h6 {
 }
 
 #footer .footer-top .footer-links ul {
-  list-style: disc;
-  list-style-type: style disc;
+  list-style: none;
   padding: 0;
   margin: 0;
 }
@@ -1954,8 +1948,7 @@ section.trusted-technology p{
   section.custom-award ul li{
     width:21%;
     display:inline-block;
-    list-style:disc;
-    list-style-type: style disc;
+    list-style:none;
     margin:0 20px;
     background:0 0;
     padding:22px;
@@ -2456,7 +2449,7 @@ background:#3cedca;height:3px;
   border-bottom-left-radius:20px
 }
 
-/* .nav-dropdown-menu-item{display:block}
+.nav-dropdown-menu-item{display:block}
 
 .nav-dropdown-menu-link{
   display:block;
@@ -2464,7 +2457,7 @@ background:#3cedca;height:3px;
   background:#fff;
   color:#666;
   transition:background .3s;-webkit-transition:background .3s
-} */
+}
 
 .nav-dropdown-menu-link:focus,.nav-dropdown-menu-link:hover{
   color:#0089af;
@@ -2481,10 +2474,10 @@ background:#3cedca;height:3px;
   border-bottom-right-radius:20px;
   border-bottom-left-radius:20px
 }
-/* 
+
 .product-led-listing ul li a i{
   margin-right:2px!important
-} */
+}
 
 .product-dmenu{padding:10px 25px 30px 30px}
 
@@ -2515,8 +2508,7 @@ background:#3cedca;height:3px;
 .dmenu-list>li>ul{
   margin:10px 15px;
   padding:0;
-  list-style:disc;
-  list-style-type: style disc;
+  list-style:none;
 }
 
 .dmenu-list>li{margin-bottom:10px}
@@ -2686,7 +2678,7 @@ background:#3cedca;height:3px;
 
 .blog-item-iner-section ul.meta-data li{
   display:inline-block;
-  list-style-type: style disc;
+  list-style: none;
   font-size:13px;
   margin-right:15px;
   color:#525151
@@ -3693,3 +3685,4 @@ span.pp-rt-date{font-size:13px}span.pp-rt-date i{
 }
 
 /* < Nynox section End> */
+
