@@ -318,7 +318,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  /* color: #19a0ee; */
+  color: #19a0ee;
   text-decoration: none;
 }
 
