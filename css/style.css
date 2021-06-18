@@ -12,6 +12,7 @@
 body {
   background: #fff;
   color: #444;
+  Font-family:sans-serif;
 }
 
 a {
@@ -40,7 +41,7 @@ h3,
 h4,
 h5,
 h6 {
-
+  Font-family:sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -167,6 +168,7 @@ h6 {
   right: 0;
   transition: all 0.5s;
   z-index: 997;
+  Font-family:sans-serif;
 }
 
 #header.header-scrolled,
@@ -190,6 +192,7 @@ h6 {
   font-weight: 400;
   letter-spacing: 3px;
   text-transform: uppercase;
+  Font-family: sans-serif;
 }
 
 #header .logo h1 a,
@@ -220,7 +223,7 @@ h6 {
   position: relative;
   background: #f5f8fd url("../img/p3.jpg") center top no-repeat;
   background-size: cover;
-
+  Font-family:sans-serif;
 }
 
 #intro .intro-info h2,h3 {
@@ -230,7 +233,7 @@ h6 {
   font-weight: 500;
   margin-top: 50px;
   margin-left: 580px;
-
+  Font-family:sans-serif;
 }
 
 #intro .image  {
@@ -246,6 +249,7 @@ h6 {
 
 #intro .intro-info .btn-get-started,
 #intro .intro-info .btn-services {
+  Font-family:sans-serif;
   font-size: 13px;
   font-weight: 600;
   text-transform: uppercase;
@@ -267,6 +271,7 @@ h6 {
 
 #intro .a{
   text-transform: uppercase;
+  Font-family:sans-serif;
 }
 
 
@@ -293,7 +298,7 @@ h6 {
   position: relative;
   white-space: nowrap;
   float: left;
-
+  Font-family:sans-serif;
  }
 
 .main-nav a {
@@ -305,7 +310,7 @@ h6 {
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
-
+  Font-family:sans-serif;
 }
 
 .main-nav a:hover,
@@ -492,6 +497,7 @@ h6 {
 --------------------------------*/
 
 .section-header h3 {
+  Font-family:sans-serif;
   font-size: 36px;
   color: #413e66;
   text-align: center;
@@ -528,6 +534,7 @@ h6 {
 }
 
 #about .about-content h2 {
+  Font-family:sans-serif;
   color: #413e66;
   font-weight: 700;
 }
@@ -537,6 +544,7 @@ h6 {
   font-weight: 400;
   font-size: 22px;
   font-style: italic;
+  Font-family:sans-serif;
 }
 
 #about .about-content ul {
@@ -639,6 +647,7 @@ h6 {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  Font-family:sans-serif;
 }
 
 #services .title a {
@@ -680,9 +689,11 @@ h6 {
   font-size: 36px;
   float: left;
   justify-self: auto;
+  Font-family:sans-serif;
 }
 
 #why-us .why-us-content .features h4 {
+  Font-family:sans-serif;
   font-size: 24px;
   font-weight: 600;
   margin-left: 56px;
@@ -692,6 +703,7 @@ h6 {
 }
 
 #why-us .why-us-content .features p {
+  Font-family:sans-serif;
   font-size: 16px;
   margin-left: 56px;
   color: #555186;
@@ -702,6 +714,7 @@ h6 {
 }
 
 #why-us .counters span {
+  Font-family:sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -735,6 +748,7 @@ h6 {
 }
 
 #call-to-action .cta-btn {
+  Font-family:sans-serif;
   font-weight: 700;
   font-size: 16px;
   letter-spacing: 1px;
@@ -845,6 +859,7 @@ h6 {
 }
 
 #portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+  Font-family:sans-serif;
   font-size: 22px;
   line-height: 1px;
   font-weight: 700;
@@ -926,6 +941,7 @@ h6 {
 }
 
 #testimonials .testimonial-item h3 {
+  Font-family:sans-serif;
   font-size: 20px;
   font-weight: bold;
   margin: 10px 0 5px 0;
@@ -1152,6 +1168,7 @@ h6 {
 }
 
 #pricing .card h3 .currency {
+  Font-family:sans-serif;
   font-size: 30px;
   position: relative;
   font-weight: 400;
@@ -1243,6 +1260,7 @@ h6 {
 --------------------------------------------------------------*/
 
 #footer {
+  Font-family: sans-serif;
   padding: 0 0 30px 0;
   font-size: 14px;
   background: #fff;
@@ -1276,6 +1294,7 @@ h6 {
 }
 
 #footer .footer-top .social-links a {
+  Font-family:sans-serif;
   font-size: 18px;
   display: inline-block;
   background: #1bb1dc;
@@ -1296,6 +1315,7 @@ h6 {
 }
 
 #footer .footer-top h4 {
+  Font-family:sans-serif;
   font-size: 14px;
   font-weight: bold;
   color: #413e66;
