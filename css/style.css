@@ -788,6 +788,7 @@ h6 {
 
 #portfolio {
   padding: 60px 0;
+  margin-top: 30px;
 }
 
 #portfolio #portfolio-flters {
@@ -1274,7 +1275,7 @@ h6 {
 
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #f5f8fd;
+  /* background: #f5f8fd; */
 }
 
 #footer .footer-top .footer-info {
@@ -3778,7 +3779,7 @@ span.pp-rt-date{font-size:13px}span.pp-rt-date i{
   -webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,.1);
   box-shadow:0 2px 20px 0 rgba(0,0,0,.1)
 }
-  
+
 .custom-form-box p
 {font-size:14px;
   line-height:25px;
