@@ -31,7 +31,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0 0 20px 0;
   text-align:justify;
   /* text-indent: 50px; */
 }
@@ -3301,14 +3301,7 @@ section.trial.vertical-p h2:after{
   background:#2d89af;
   left:0;width:50px
 }
-.custom-form-box{
-  width:100%;
-  padding:20px;
-  background:#fff;
-  height:528px;
-  -webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,.1);
-  box-shadow:0 2px 20px 0 rgba(0,0,0,.1)
-}
+
 
 .custom-form-box h2{
   font-weight:500;
@@ -3781,7 +3774,7 @@ span.pp-rt-date{font-size:13px}span.pp-rt-date i{
   width:100%;
   padding:20px;
   background:#fff;
-  height: 517px;
+  height: 500px;
   -webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,.1);
   box-shadow:0 2px 20px 0 rgba(0,0,0,.1)
 }
