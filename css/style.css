@@ -173,7 +173,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 70px;
+  height: 100px;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
@@ -228,7 +228,7 @@ h6 {
 
 #intro .intro-info h2,h3 {
   color: #19A0EE;
-  /* margin-bottom: 10px; */
+  margin-bottom: 10px;
   font-size: 25px;
   font-weight: 500;
   margin-top: 50px;
@@ -316,7 +316,7 @@ h6 {
 .main-nav a:hover,
 .main-nav .active > a,
 .main-nav li:hover > a {
-  color: #19a0ee;
+  color: #280f9b;
   text-decoration: none;
 }
 
