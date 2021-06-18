@@ -3405,7 +3405,7 @@ section.map-section-contact p{
 .custom-form-text h4{
   font-size:13px;
   font-weight:600;
-  padding-bottom:10px;
+  padding-bottom:5px;
   color:#3a3838
 }
 
@@ -3821,15 +3821,9 @@ section.map-section-contact h3{
   
 section.map-section-contact p{
     font-size:14px;color:#616161;
-    padding:5px 100px 25px
+    padding:5px 100px 25px;
   }
-  
-.custom-form-text h4{    
-font-size:13px;
-font-weight:600;
-padding-bottom:5px;
-color:#3a3838
-}
+
 .custom-form-text h4 i{margin-right:4px}
 
 .custom-form-text ul{margin:0;padding:0;margin-top:0}
