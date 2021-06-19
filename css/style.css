@@ -306,7 +306,8 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  color: #413e66;
+  /* color: #413e66; */
+    color: #280f9b;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
@@ -316,7 +317,7 @@ h6 {
 }
 
 .main-nav a:hover,
-.main-nav .active > a,
+/* .main-nav .active > a, */
 .main-nav li:hover > a {
   /* color: #280f9b; */
    color: #19A0EE;  
