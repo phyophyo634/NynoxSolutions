@@ -1713,7 +1713,7 @@ h6 {
 
 h1,h2,h3,h4,h5
 {text-transform:capitalize;
-  margin-bottom: 8px;
+  margin-bottom: 5px;
 }
 
 a:hover
@@ -3779,7 +3779,7 @@ span.pp-rt-date{font-size:13px}span.pp-rt-date i{
   width:100%;
   padding:20px;
   background:#fff;
-  height: 500px;
+  height: 452px;
   -webkit-box-shadow:0 2px 20px 0 rgba(0,0,0,.1);
   box-shadow:0 2px 20px 0 rgba(0,0,0,.1)
 }
