@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  /* background: #f5f8fd; */
+  background: #f5f8fd;
   color: #444;
   Font-family:sans-serif;
 }
@@ -175,7 +175,7 @@ h6 {
 
 #header.header-scrolled,
 #header.header-pages {
-  height: 70px;
+  height: 80px;
   padding: 15px 0;
   background-color: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.3);
@@ -206,9 +206,10 @@ h6 {
 #header .logo img {
   padding: 0;
   margin: 9px 0;
-  max-height: 40px;
-  max-width: 70px;
-  margin:0px 9px 0px 5px;
+  max-height: 50px;
+  max-width: 90px;
+  margin:0px 5px 0px 0px;
+ 
 }
 
 .main-pages {
@@ -306,14 +307,14 @@ h6 {
 .main-nav a {
   display: block;
   position: relative;
-  /* color: #413e66; */
-    color: #280f9b;
+  color: #413e66;
   padding: 10px 15px;
   transition: 0.3s;
   font-size: 14px;
   text-transform: uppercase;
   font-weight: 600;
   Font-family:sans-serif;
+  margin-top: 3px;
 }
 
 .main-nav a:hover,
@@ -676,7 +677,7 @@ h6 {
 #why-us {
   padding: 60px 0;
   margin-top: 30px;
-  /* background-color: #f5f8fd; */
+  background-color: #f5f8fd;
 }
 
 #why-us .why-us-content .features {
@@ -1270,7 +1271,8 @@ h6 {
   Font-family: sans-serif;
   padding: 0 0 30px 0;
   font-size: 14px;
-  background: #fff;
+  /* background: #fff; */
+  background: #f5f8fd;
 
 }
 
@@ -1710,7 +1712,8 @@ h6 {
 
 
 h1,h2,h3,h4,h5
-{text-transform:capitalize
+{text-transform:capitalize;
+  margin-bottom: 8px;
 }
 
 a:hover
