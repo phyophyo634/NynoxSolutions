@@ -228,14 +228,19 @@ h6 {
   background-size: cover;
   }
 
+
 #intro .intro-info h2,h3 {
-  color: #1bb1dc;
+  /* color: #1bb1dc;
   margin-bottom: 10px;
   font-size: 25px;
   font-weight: 600;
   margin-top: 50px;
   margin-left: 529px;
-  Font-family:sans-serif;
+  Font-family:sans-serif; */
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
 }
 
 #intro .image  {
