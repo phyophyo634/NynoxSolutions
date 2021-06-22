@@ -14,9 +14,10 @@ body {
   background: #f5f8fd;
   color: #444;
   /* Font-family:sans-serif; */
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; 
+  /* font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif; 
   font-style: normal;
-  font-variant: normal;
+  font-variant: normal; */
+  font-family: "new century schoolbook";
   } 
    
 
@@ -38,9 +39,10 @@ p {
   margin: 0 0 20px 0;
   text-align:justify;
   /* text-indent: 50px; */
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
+  /* font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
   font-style: normal;
-  font-variant: normal;
+  font-variant: normal; */
+  font-family: "new century schoolbook";
   
 }
 
@@ -50,9 +52,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: TimesNewRoman, "Times New Roman", Times, Baskerville, Georgia, serif;
-  font-style: normal;
-  font-variant: normal;
+  font-family: "new century schoolbook";
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
