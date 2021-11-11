@@ -380,8 +380,9 @@ h6 {
 }
 
 .main-nav .drop-down > a:after {
-  content: "\f107";
-  padding-left: 10px;
+content: "\f107";
+font-family: FontAwesome;
+padding-left: 10px;
 }
 
 .main-nav .drop-down .drop-down ul {
@@ -446,14 +447,18 @@ h6 {
   padding-left: 10px;
   position: absolute;
   right: 15px;
+  font-family: FontAwesome;
+
 }
 
 .mobile-nav .active.drop-down > a:after {
   content: "\f077";
+
 }
 
 .mobile-nav .drop-down > a {
   padding-right: 35px;
+
 }
 
 .mobile-nav .drop-down ul {
