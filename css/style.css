@@ -323,7 +323,7 @@ h6 {
   display: block;
   position: relative;
   color: #413e66;
-  padding: 7px 7px;
+  padding: 10px 10px;
   transition: 0.3s;
   font-size: 14px;
   text-transform: uppercase;
@@ -332,13 +332,12 @@ h6 {
   margin-top: 3px;
   }
 
-.main-nav a:hover,
-/* .main-nav .active > a, */
-.main-nav li:hover > a {
-  /* color: #280f9b; */
-   color: #19A0EE;
-  text-decoration: none;
-}
+  .main-nav a:hover,
+  .main-nav .active > a,
+  .main-nav li:hover > a {
+    color: #1bb1dc;
+    text-decoration: none;
+  }
 
 .main-nav .drop-down ul {
   display: block;
