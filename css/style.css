@@ -332,8 +332,8 @@ h6 {
   margin-top: 3px;
   }
 
-  .main-nav a:hover,
-  .main-nav .active > a,
+/*  .main-nav a:hover,
+  .main-nav .active > a,*/
   .main-nav li:hover > a {
     color: #1bb1dc;
     text-decoration: none;
