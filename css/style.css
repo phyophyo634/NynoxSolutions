@@ -338,6 +338,12 @@ h6 {
     color: #1bb1dc;
     text-decoration: none;
   }
+  .main-nav li :visited > a {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
 
 .main-nav .drop-down ul {
   display: block;
